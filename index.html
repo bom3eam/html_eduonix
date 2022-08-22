@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="developer-portfolio">
+    <meta name="keywords" content="developer, dev, software-engineer, portfolio, web-development">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarote Portfolio</title>
+    <style>
+        table, th, td {
+          border:1px solid white;
+        }
+        th {
+          background-color: skyblue;
+        }
+        td {
+          background-color: lightgray;
+          text-align: center;
+        }
+        img{
+            width: 33%;
+            height: 300px;
+            border-radius: 10%;
+        }
+        footer{
+            border-top: solid gray;
+            margin-top: 25px;
+        }
+        body{
+            font-family: sans-serif;
+            color: darkslategray;
+        }
+        h1{
+            border: 2px solid black;
+            margin-right: 80%;
+            padding-left: 5px;
+        }
+        .textDecor{
+            font-weight: bold;
+            text-indent: 50px;
+            letter-spacing: 3px;
+        }
+        h3{
+            text-decoration: underline;
+        }
+        .submit{
+            background-color: darkslategray;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 5px 10px;
+            text-align: center;
+            font-size: 14px;
+            transition-duration: 1s;
+        }
+        .submit:hover{
+            background-color: black;
+            color: white;
+        }
+        </style>
+</head>
+<body>
+    <!-- Heading -->
+    <div>
+    <h1>Sarote Portfolio</h1>
+    <p class="textDecor">My name is Sarote. I am Web developer</p>
+    </div>
+
+    <!-- Image Section -->
+    <div class ="profileImg">
+        <img src="images/book1.jpg" alt="book1" >
+        <img src="images/book2.jpg" alt="book2" >
+        <img src="images/book3.jpg" alt="book3" >
+    </div>
+
+    <!-- Skill section -->
+    <div class="skill">
+        <h3>Skills</h3>
+        <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        </ol>
+    </div>
+
+    <!-- graduation marks -->
+    <div class="graduation">
+    <h3>Graduation Marks</h3>
+    <table style="width:100%">
+        <tr>
+            <th>10<sup>th</sup></th>
+            <th>12<sup>th</sup></th>
+            <th>Graduation</th>
+        </tr>
+        <tr>
+            <td>75%</td>
+            <td>70%</td>
+            <td>72%</td>
+        </tr>
+        </table>
+    </div>
+
+
+    <!-- Contact Form -->
+    <div class="contact">
+        <h3>Contact Me</h3>
+        <form>
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="fname">Phone NO:</label><br>
+            <input type="text" id="phone" name="phone" value=""><br>
+            <label for="fname">E-mail:</label><br>
+            <input type="text" email="" name="email" value=""><br>
+            <input type="submit" class="submit" value="Submit">
+        </form>
+
+    </div>
+
+    <!-- Copyright -->
+    <footer>
+        <p style="text-align: center;">&copy;Sarote,2022</p>
+    </footer>
+    
+</body>
+</html>
